@@ -199,14 +199,14 @@ body.select-version .play-button {
     position: fixed;
     background-color: rgb(49, 51, 54);
     height: 57vh;
-    width: 20vw;  /* Changed width from 13vw to 20vw for a wider appearance */
+    width: 25vw;
     padding-left: 1vw;
     padding-right: 1vw;
     padding-top: 1vw;
     padding-bottom: 1vw;
     border-radius: 1vw;
     color: white;
-    max-width: 40vw;  /* Changed max-width from 30vw to 40vw for a wider appearance */
+    max-width: 45vw;
     text-align: center;
     overflow: visible;
     font-size: calc(1.2vw);

@@ -65,11 +65,10 @@ html, body, .container-table {
 }
 
 .lynx {
-    display: outline;
-    background-image: none;
-    border: #89CFF0;
-    border-radius: 10px;
-    color: #89CFF0;
+    display: inline;
+  background-image: linear-gradient(to left, #89CFF0, #89CFF0, #89CFF0, #89CFF0, #89CFF0, #89CFF0, #89CFF0);
+    -webkit-background-clip: text;
+    color: transparent;
     font-size: 10em;
     text-align: center;
     margin-bottom: 50px;

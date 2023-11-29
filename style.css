@@ -194,7 +194,7 @@ body.select-version .play-button {
 
 #changelog {
     top: 72%;
-    left: 6%;
+    left: 4%;
     transform: translateY(-50%);
     position: fixed;
     background-color: rgb(49, 51, 54);

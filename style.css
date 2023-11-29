@@ -193,7 +193,7 @@ body.select-version .play-button {
 }
 
 #changelog {
-    top: 64%;
+    top: 72%;
     left: 6%;
     transform: translateY(-50%);
     position: fixed;

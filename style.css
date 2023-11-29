@@ -34,8 +34,8 @@ html {
 }
 
 ::selection {
-    color: #ffffff!important;
-    background: #000000!important
+    color: #28282b!important;
+    background: #89CFF0!important
 }
 
 p {
@@ -67,7 +67,6 @@ html, body, .container-table {
 .lynx {
     display: inline;
     background-image: linear-gradient(to left, #89CFF0, #89CFF0, #89CFF0, #89CFF0, #89CFF0, #89CFF0, #89CFF0);
-    -webkit-background-clip: text;
     color: transparent;
     font-size: 10em;
     text-align: center;
@@ -186,14 +185,31 @@ body.select-version .play-button {
     margin:auto;
     margin-left: 0;
     margin-right: auto
-    width: max-content;
-    max-width: 100%
 }
+
 .mcbutton:hover {
     background-color: darkgray;
     color: white;
 }
 
+#changelog {
+    top: 27%;
+    right: 15%;
+    position: absolute;
+    background-color: rgb(49, 51, 54);
+    height: 40vh;
+    width: 13vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border-radius: 1vw;
+    color: white;
+    max-width: 30vw;
+    text-align: center;
+    overflow: visable;
+    font-size: calc(1.2vw);
+  }
 
 .docs-button:not(.d-flex) img{
     width: 100%;
@@ -254,7 +270,6 @@ body.select-version .play-button {
 
 .splash{
 	background-image: unset;
-    -webkit-background-clip: unset;
     color: unset;
     text-align: center;
     -webkit-text-stroke: 0;

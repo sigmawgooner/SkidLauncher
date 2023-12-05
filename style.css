@@ -58,8 +58,7 @@ html, body, .container-table {
 
 .lynx {
     display: inline;
-  background-image: linear-gradient(to left, #89CFF0, #89CFF0, #89CFF0, #89CFF0, #89CFF0, #89CFF0, #89CFF0);
-    -webkit-background-clip: text;
+    background-image: linear-gradient(to left, #89CFF0, #89CFF0, #89CFF0, #89CFF0, #89CFF0, #89CFF0, #89CFF0);
     color: transparent;
     font-size: 10em;
     text-align: center;

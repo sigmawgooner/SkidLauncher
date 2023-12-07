@@ -95,6 +95,12 @@ flex-container {
 .container {
   padding: 10px;
 }
+
+.back-button, body.select-version .back-button{
+  width:260px;
+  top:10px;
+  left:10px;
+}
 .badge {
   background-color: red;
   color: white;

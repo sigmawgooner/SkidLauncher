@@ -126,6 +126,18 @@ body.select-version .play-button {
   width:260px;
   top:10px;
   left:10px;
+  font-size: 2em;
+  padding: 10px;
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  max-width: 100%;
+  width: 450px;
+  text-align: center;
+  display: block;
+  margin:auto;
 }
 
 .mc-footer .mc-dd{

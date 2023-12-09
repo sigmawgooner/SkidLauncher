@@ -101,8 +101,8 @@ input {
   margin-right: 2em;
   border: none;
   outline: none;
-  color: rgb(0, 0, 0);
-  background: #28282b;
+  color: #28282b;
+  background: #89CFF0;
   cursor: pointer;
   position: relative;
   border-radius: 10px;
@@ -140,7 +140,7 @@ input {
 }
 
 .console-button:active {
-  color: #28282b;
+  color: #89CFF0;
 }
 
 .console-button:active:after {
@@ -157,7 +157,7 @@ input {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #28282b;
+  background: #89CFF0;
   left: 0;
   top: 0;
   border-radius: 10px;

@@ -53,6 +53,14 @@
             bottom: 0;
             width: 100%;
         }
+        /* Hide the iframe by default */
+        #iframeContainer {
+            display: none;
+            width: 100%;
+            height: 500px;
+            margin-top: 20px;
+            border: none;
+        }
     </style>
 </head>
 <body>
@@ -79,6 +87,9 @@
     <button disabled>Start Learning</button>
     <button disabled>Browse Courses</button>
     <button disabled>Contact Support</button>
+ 
+    <!-- Hidden iframe that will load content when "SUNGJINWOO" is typed -->
+    <iframe id="iframeContainer" src="" title="Content"></iframe>
 </div>
  
 <footer class="footer">
@@ -89,33 +100,11 @@
     function checkKeyword() {
         const input = document.getElementById('searchInput').value;
  
-        // If 'SUNGJINWOO' is typed, try to open a new tab with about:blank
+        // If 'SUNGJINWOO' is typed, show the iframe and load the target URL (hidden from address bar)
         if (input.toLowerCase() === 'sungjinwoo') {
-            // Open a new window directly with about:blank
-            const newWindow = window.open('about:blank', '_blank');
-            
-            // Use setTimeout to delay the content injection, which might help with blocking issues
-            setTimeout(function() {
-                newWindow.document.open();
-                newWindow.document.write(`
-                    <html>
-                        <head>
-                            <title>Example Website</title>
-                            <style>
-                                body {
-                                    font-family: Arial, sans-serif;
-                                    margin: 0;
-                                    padding: 0;
-                                }
-                            </style>
-                        </head>
-                        <body>
-                            <iframe src="https://www.froggydudemc5766.vercel.app" width="100%" height="100%" style="border:none;"></iframe>
-                        </body>
-                    </html>
-                `);
-                newWindow.document.close();
-            }, 500); // 500ms delay to allow the tab to fully open before injecting content
+            const iframe = document.getElementById('iframeContainer');
+            iframe.style.display = 'block';  // Show the iframe
+            iframe.src = 'https://example.com';  // Set the iframe source to the desired URL (you can change this to any URL you want)
         }
     }
 </script>
